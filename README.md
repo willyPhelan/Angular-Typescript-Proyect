@@ -1,5 +1,14 @@
 # AngularProyect
 
+Aplicación de tareas en el framework Angular, usando typescript, visual studio Code, y las características que nos ofrece el framework, como javascript. 
+
+![Captura de pantalla (92)](https://user-images.githubusercontent.com/97048366/201439182-a38c9287-00bd-4edb-bb1a-4d21fd593650.png)
+![Captura de pantalla (93)](https://user-images.githubusercontent.com/97048366/201439185-9f1e1846-515c-4da3-b2c2-fc908c5c3237.png)
+
+![Captura de pantalla (94)](https://user-images.githubusercontent.com/97048366/201439213-448b65d5-8196-4284-a55b-60241fac996d.png)
+![Captura de pantalla (95)](https://user-images.githubusercontent.com/97048366/201439220-59eb2607-ed0b-4aec-8e94-f426372f8c98.png)
+![Captura de pantalla (96)](https://user-images.githubusercontent.com/97048366/201439227-b70dadf5-6589-4211-a411-936e5b12f12b.png)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
 
 ## Development server
