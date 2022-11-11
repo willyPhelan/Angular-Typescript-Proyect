@@ -2,7 +2,7 @@
 
 ## Aplicación de tareas en el framework Angular, usando Typescript, Visual Studio Code, y las características que nos ofrece el framework, como Javascript. 
 
-Nos permite guardar, editar y eliminar información correspondientes a distintas personas que comparten un mismo ambito laboral por ejemplo.
+Nos permite guardar, editar y eliminar información correspondiente a distintas personas que comparten un mismo ambito laboral por ejemplo.
 
 
 
