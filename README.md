@@ -1,6 +1,6 @@
 # AngularProyect
 
-Aplicación de tareas en el framework Angular, usando typescript, visual studio Code, y las características que nos ofrece el framework, como javascript. 
+Aplicación de tareas en el framework Angular, usando Typescript, Visual Studio Code, y las características que nos ofrece el framework, como Javascript. 
 
 ![Captura de pantalla (92)](https://user-images.githubusercontent.com/97048366/201439182-a38c9287-00bd-4edb-bb1a-4d21fd593650.png)
 ![Captura de pantalla (93)](https://user-images.githubusercontent.com/97048366/201439185-9f1e1846-515c-4da3-b2c2-fc908c5c3237.png)
