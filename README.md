@@ -1,6 +1,10 @@
 # AngularProyect
 
-Aplicación de tareas en el framework Angular, usando Typescript, Visual Studio Code, y las características que nos ofrece el framework, como Javascript. 
+## Aplicación de tareas en el framework Angular, usando Typescript, Visual Studio Code, y las características que nos ofrece el framework, como Javascript. 
+
+Nos permite guardar, editar y eliminar información correspondientes a distintas personas que comparten un mismo ambito laboral por ejemplo.
+
+
 
 ![Captura de pantalla (92)](https://user-images.githubusercontent.com/97048366/201439182-a38c9287-00bd-4edb-bb1a-4d21fd593650.png)
 ![Captura de pantalla (93)](https://user-images.githubusercontent.com/97048366/201439185-9f1e1846-515c-4da3-b2c2-fc908c5c3237.png)
