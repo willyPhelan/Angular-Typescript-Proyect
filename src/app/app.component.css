@@ -1,0 +1,35 @@
+.app { 
+    border-radius: 4px ; 
+    margin-top: 20px;
+    padding: 30px;
+    background-color: #fff;
+}
+.a{ color: #198754;}
+
+.men { 
+    color: #198754;
+    
+}
+.barra { 
+    padding-left: 200px;
+    text-decoration: none;
+}
+
+.xx { margin-right: 5px;}
+
+.inp { 
+    display: flex;
+    padding: 5px;
+
+}
+
+.title { margin-left: 50%;
+text-decoration: underline;}
+.cre { 
+    margin-left: 350px;
+    margin-top: -250px;
+}
+
+.rcre {
+    margin-top: 100px;
+}

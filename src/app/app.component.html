@@ -1,0 +1,138 @@
+
+
+<div class="container app">
+  <div class="row">
+    <div class="col-sm-8">
+      <h1 class="text-center title">{{title}}</h1>
+    </div>
+    <div class="col-sm-4 ">
+      <div class="alert alert-success alert-dismissable men" *ngIf="msg" >
+        {{msg}}
+        <a href="#" class="close barra a" (click)="closeAlert()"> 
+          &times; 
+        </a>
+       
+      </div>
+    </div>
+  </div>
+
+ <div class="col-sm-4">
+  <img width="300" alt="Angular Logo"src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==" />
+ </div>
+
+ <div class="col-sm-8 cre">
+  <h2> Create Data: </h2>
+  <form class="form-horizontal">
+  
+  <div class="form-group inp">
+  <label for="name" class="control-label col-sm-2"> Name </label>
+  <div class="col-sm-10">
+    <input type="text" class="form-control" id="name"
+    name="name" [(ngModel)]="model.name"
+    placeholder="Enter a new name">
+  </div>
+  </div>
+
+
+  <div class="form-group inp">
+    <label for="position" class="control-label col-sm-2"> Position </label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="position"
+      name="position" [(ngModel)]="model.position"
+      placeholder="Enter a new position">
+    </div>
+    </div>
+
+    <div class="form-group inp">
+      <label for="email" class="control-label col-sm-2"> Email </label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="email"
+        name="email" [(ngModel)]="model.email"
+        placeholder="Enter an email">
+      </div>
+      </div>
+
+
+      <div class="form-group">
+        <div class="col-sm-10 col-sm-offset-2">
+          <button type="submit" class="btn btn-success" (click)="addEmployee()"> Save </button>
+        </div>
+      </div>
+
+  </form>
+</div>
+
+  <div class="row rcre">
+    <div class="col-sm-8">
+      <h2> Read Data: </h2>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th> Name </th>
+            <th> Position </th>
+            <th> Email</th> 
+            <th> Actions </th>   
+                   
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let employee of employees; let i = index">
+            <td>{{employee.name}}</td>
+            <td>{{employee.position}}</td>
+            <td> {{employee.email}}</td>
+            <td class="td">
+            <a (click)="editEmployee(i)" class="btn btn-success"> Edit </a>
+            <a (click)="deleteEmployee(i)" class= "btn btn-danger"> Delete </a>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="col-sm-4" [hidden]="hideUpdate">
+      <h2> Update Data: </h2>
+      <form class="form-horizontal">
+      
+      <div class="form-group inp">
+      <label for="name" class="control-label col-sm-2 xx"> Name </label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="name"
+        name="name" [(ngModel)]="model2.name"
+        placeholder="Enter a new name">
+      </div>
+      </div>
+    
+    
+      <div class="form-group inp">
+        <label for="position" class="control-label col-sm-2 xx"> Position </label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="position"
+          name="position" [(ngModel)]="model2.position"
+          placeholder="Enter a new position">
+        </div>
+        </div>
+    
+        <div class="form-group inp">
+          <label for="email" class="control-label col-sm-2 xx"> Email </label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="email"
+            name="email" [(ngModel)]="model2.email"
+            placeholder="Enter an email">
+          </div>
+          </div>
+    
+    
+          <div class="form-group">
+            <div class="col-sm-10 col-sm-offset-2">
+              <button type="submit" class="btn btn-success" (click)="updateEmployee()"> Save </button>
+            </div>
+          </div>
+    
+      </form>
+    </div>
+   
+    
+  </div>
+
+  
+  </div>
